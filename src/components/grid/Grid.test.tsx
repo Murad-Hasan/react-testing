@@ -21,4 +21,4 @@ test('Grid renders with a name', () => {
   render (<Grid name="John" />);
   const textElement = screen.getByText('Hello John');
   expect(textElement).toBeInTheDocument();
-})
+})     
